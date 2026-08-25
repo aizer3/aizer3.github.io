@@ -33,9 +33,15 @@ cover:
     home: true
     archive: true
     others: true
-  title: Aizer
-  subtitle: "my blog"
+  title: aizer3.blog
+  subtitle: "Hello, World. Hello, Future."
   background: https://s2.loli.net/2023/10/08/1Sk8whtjouUe2NT.webp
+
+  # ↑ 改下面这些值（替换成你想要的内容）：
+  #   title:    首页大标题
+  #   subtitle: 标题下面那行小字
+  #   background: 首屏背景图 URL
+  #   search:   搜索框占位文字（这里写的是 "welcome!"）
   features: # 在封面中间显示的按钮，已同步导航栏
     - name: 博客
       url: /
