@@ -1,0 +1,114 @@
+# Volantis configuration overrides
+
+# Navbar
+navbar:
+  menu:
+    - name: 博客
+      url: /
+      icon: fa-solid fa-rss
+    - name: 分类
+      url: categories/
+      icon: fa-solid fa-folder-open
+    - name: 标签
+      url: tags/
+      icon: fa-solid fa-tags
+    - name: 归档
+      url: archives/
+      icon: fa-solid fa-archive
+    - name: 友链
+      url: friends/
+      icon: fa-solid fa-link
+    - name: 关于
+      url: about/
+      icon: fa-solid fa-user
+    - name: 暗黑模式
+      icon: fa-solid fa-moon
+      toggle: darkmode
+  search: 搜索...
+
+# Cover (Homepage)
+cover:
+  layout_scheme: featured # 更改为功能布局，支持显示按钮
+  display:
+    home: true
+    archive: true
+    others: true
+  title: Aizer
+  subtitle: "my blog"
+  background: https://s2.loli.net/2023/10/08/1Sk8whtjouUe2NT.webp
+  features: # 在封面中间显示的按钮，已同步导航栏
+    - name: 博客
+      url: /
+      icon: fa-solid fa-rss
+    - name: 分类
+      url: categories/
+      icon: fa-solid fa-folder-open
+    - name: 标签
+      url: tags/
+      icon: fa-solid fa-tags
+    - name: 归档
+      url: archives/
+      icon: fa-solid fa-archive
+    - name: 友链
+      url: friends/
+      icon: fa-solid fa-link
+    - name: 关于
+      url: about/
+      icon: fa-solid fa-user
+  search: "welcome！"
+
+# Plugins
+plugins:
+  preload:
+    enable: true
+  lazyload:
+    enable: true
+  darkmode:
+    enable: true
+  scrollreveal:
+    enable: true
+  nodewaves:
+    enable: true
+  busuanzi:
+    enable: true
+
+# Footer
+footer:
+  copyright: 'Copyright © 2023 aizer3'
+
+# CSP
+csp:
+  enable: false
+
+# Sidebar
+sidebar:
+  for_page: [blogger, category, tagcloud]
+  for_post: [toc]
+  widget_library:
+    blogger:
+      class: blogger
+      avatar: https://avatars.githubusercontent.com/u/93652214?s=400&u=5feb849d134d95c46722eed3acb71a87391315ff&v=4
+      title: Aizer
+      subtitle: "best wishes！"
+      social:
+        - icon: fa-solid fa-envelope
+          url: mailto:849330180@qq.com
+        - icon: fab fa-github
+          url: https://github.com/aizer3
+    category:
+      class: category
+      header:
+        icon: fa-solid fa-folder-open
+        title: 文章分类
+        url: /categories/
+    tagcloud:
+      class: tagcloud
+      header:
+        icon: fa-solid fa-tags
+        title: 热门标签
+        url: /tags/
+    toc:
+      class: toc
+      header:
+        icon: fa-solid fa-list
+        title: 本文目录
