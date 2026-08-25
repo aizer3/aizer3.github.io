@@ -71,6 +71,63 @@ push 后去 GitHub 仓库 **Actions** 标签页查看构建进度，跑完约 1�
 
 ---
 
+## 文章 Front-matter 参数（写在 `.md` 文件最顶部）
+
+文章头部用 `---` 包裹的 YAML 区域，叫 Front-matter。示例：
+
+```markdown
+---
+title: 操作
+date: 2027-12-24 15:46:12
+---
+文章正文写在这里……
+```
+
+### 常用参数
+
+| 参数 | 说明 | 示例 |
+|---|---|---|
+| `title` | 文章标题（必填） | `title: 操作` |
+| `date` | 发布时间（必填，Hexo 自动生成） | `date: 2027-12-24 15:46:12` |
+| `updated` | 更新时间 | `updated: 2027-12-25 10:00:00` |
+| `tags` | 标签，多个用 YAML 列表 | `tags: [前端, React]` 或换行 `- 前端` |
+| `categories` | 分类（注意：分类有层级，顺序即父子关系） | `categories: [技术, 前端]` |
+| `permalink` | 自定义该文章 URL | `permalink: my-post` |
+| `comments` | 是否开启评论（主题支持时） | `comments: true` |
+| `layout` | 布局类型，默认 `post` | `layout: post` |
+| `cover` | 封面图（部分主题如 volantis 支持） | `cover: https://xxx.png` |
+| `description` | 文章摘要/描述 | `description: 这是一篇关于……` |
+| `keywords` | 关键词（SEO） | `keywords: hexo, 教程` |
+| `top` / `sticky` | 置顶（volantis 等主题支持） | `top: 1`（数字越大越靠前） |
+| `hidden` | 隐藏文章（不出现在列表，仍可访问） | `hidden: true` |
+| `password` | 文章密码（主题支持时） | `password: 1234` |
+| `toc` | 是否显示目录 | `toc: true` |
+| `math` / `mathjax` | 开启数学公式渲染（volantis 支持） | `math: true` |
+| `comments` | 关闭评论 | `comments: false` |
+
+### 多标签 / 多分类写法
+
+```markdown
+---
+title: 操作
+date: 2027-12-24 15:46:12
+tags:
+  - 前端
+  - React
+categories:
+  - 技术
+  - 前端
+---
+```
+
+> 注意：`categories` 是有层级关系的（上面表示 "技术 > 前端"）。`tags` 是平级无层级。
+
+### 参考
+
+官方文档：https://hexo.io/docs/front-matter
+
+---
+
 ## 常用命令
 
 | 命令 | 作用 |
