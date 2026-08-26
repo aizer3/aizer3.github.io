@@ -96,6 +96,7 @@ sidebar:
       avatar: https://avatars.githubusercontent.com/u/93652214?s=400&u=5feb849d134d95c46722eed3acb71a87391315ff&v=4
       title: Aizer
       subtitle: "best wishes！"
+      description: 记录生活与技术   # 不写这行就会随机显示一言（古诗）
       social:
         - icon: fa-solid fa-envelope
           url: mailto:849330180@qq.com
