@@ -6,7 +6,7 @@
   <link href="https://aizer3.github.io/atom.xml" rel="self"/>
   
   <link href="https://aizer3.github.io/"/>
-  <updated>2026-08-25T08:58:29.174Z</updated>
+  <updated>2026-08-26T05:06:01.649Z</updated>
   <id>https://aizer3.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://aizer3.github.io/2026/08/25/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/"/>
     <id>https://aizer3.github.io/2026/08/25/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/</id>
     <published>2026-08-25T07:46:12.000Z</published>
-    <updated>2026-08-25T08:58:29.174Z</updated>
+    <updated>2026-08-26T05:06:01.649Z</updated>
     
     <content type="html"><![CDATA[<p>合规CA</p><p><a href="https://www.oscca.gov.cn/app-zxfw/xzspsx/dzzwdzrzfuwujigouml.jsp?channel_code=c100144">https://www.oscca.gov.cn/app-zxfw/xzspsx/dzzwdzrzfuwujigouml.jsp?channel_code=c100144</a></p><p>查看ssh配置：&#x2F;etc&#x2F;ssh&#x2F;sshd_config</p><p>查看操作系统cat &#x2F;etc&#x2F;os-release</p><p>检查网口</p><p>ifconfig</p><p>抓取流量到data文件夹下</p><p>sudo tcpdump -i eth0 -w &#x2F;data&#x2F;name.pcap</p>]]></content>
     
@@ -42,7 +42,7 @@
     <link href="https://aizer3.github.io/2026/01/06/test1/"/>
     <id>https://aizer3.github.io/2026/01/06/test1/</id>
     <published>2026-01-06T07:25:56.000Z</published>
-    <updated>2026-08-25T08:58:29.174Z</updated>
+    <updated>2026-08-26T05:06:01.649Z</updated>
     
     <content type="html"><![CDATA[<table><thead><tr><th>算法</th><th>类型</th><th>主要用途</th><th>关键部分长度</th></tr></thead><tbody><tr><td><strong>SM1</strong></td><td><strong>SM1</strong>对称加密</td><td>对称加密硬件数据加密</td><td>密钥: 128位 (16字节) &#x2F; 分组: 128位 (16字节)</td></tr><tr><td><strong>SM2</strong></td><td><strong>SM2</strong>非对称加密</td><td>非对称加密数字签名、密钥交换、公钥加密</td><td>基于<strong>256位</strong>曲线。私钥: 256位 &#x2F; 公钥: 512位 &#x2F; 签名: 512位</td></tr><tr><td><strong>SM3</strong></td><td><strong>SM3</strong>哈希算法</td><td>哈希算法数据完整性校验、数字签名</td><td>输出: <strong>固定的256位 (32字节)</strong></td></tr><tr><td><strong>SM4</strong></td><td><strong>SM4</strong>对称加密</td><td>对称加密软件&#x2F;硬件数据加密（应用最广）</td><td>密钥: <strong>128位 (16字节)</strong> &#x2F; 分组: <strong>128位 (16字节)</strong></td></tr><tr><td><strong>SM7</strong></td><td><strong>SM7</strong>对称加密</td><td>对称加密智能卡、门禁等低功耗场景</td><td>密钥: 128位 (16字节) &#x2F; 分组: 128位 (16字节)</td></tr><tr><td><strong>SM9</strong></td><td><strong>SM9</strong>标识密码</td><td>标识密码简化密钥管理，用于物联网等</td><td>基于<strong>256位</strong>曲线。公钥: 可变长(用户标识) &#x2F; 私钥: 512位</td></tr><tr><td><strong>ZUC</strong></td><td><strong>ZUC</strong>序列密码</td><td>序列密码4G&#x2F;5G移动通信加密</td><td>密钥: <strong>128位 (16字节)</strong> &#x2F; IV: <strong>128位 (16字节)</strong></td></tr></tbody></table><table><thead><tr><th>算法名称 (Algorithm Name)</th><th>类型 (Type)</th><th>主要用途 (Primary Use Cases)</th><th>密钥&#x2F;输出长度 (Key&#x2F;Output Length)</th></tr></thead><tbody><tr><td>RC4</td><td>流密码</td><td></td><td></td></tr><tr><td>RC5</td><td>分组</td><td></td><td></td></tr><tr><td>RC6</td><td>分组</td><td></td><td></td></tr><tr><td><strong>AES</strong> (Advanced Encryption Standard)</td><td>对称加密</td><td>数据加密（文件、数据库、通信）、全盘加密</td><td><strong>密钥</strong>: 128, 192, 256 位</td></tr><tr><td><strong>3DES</strong> (Triple DES)</td><td>对称加密</td><td>金融支付（EMV标准）、旧系统兼容</td><td><strong>密钥</strong>: 112 或 168 位 (有效强度)</td></tr><tr><td><strong>DES</strong> (Data Encryption Standard)</td><td>对称加密</td><td>(历史用途)</td><td><strong>密钥</strong>: 56 位</td></tr><tr><td><strong>ChaCha20</strong></td><td>对称加密 (流密码)</td><td>TLS 1.3、移动设备加密、VPN (WireGuard)</td><td><strong>密钥</strong>: 256 位</td></tr><tr><td><strong>RSA</strong> (Rivest-Shamir-Adleman)</td><td>非对称加密</td><td>数字签名、密钥交换、数据加密</td><td><strong>密钥</strong>: 1024, <strong>2048</strong>, 3072, 4096 位</td></tr><tr><td><strong>ECC</strong> (Elliptic Curve Cryptography)</td><td>非对称加密</td><td>数字签名 (ECDSA)、密钥协商 (ECDH)</td><td><strong>密钥</strong>: 224, <strong>256</strong>, 384, 521 位</td></tr><tr><td><strong>Diffie-Hellman (DH)</strong></td><td>密钥协商</td><td>安全地在不安全的信道上协商出一个共享密钥</td><td><strong>参数长度</strong>: 1024, <strong>2048</strong>, 3072 位</td></tr><tr><td><strong>SHA-2</strong> (Secure Hash Algorithm 2)</td><td>哈希函数</td><td>数字签名、数据完整性校验、密码存储</td><td><strong>输出</strong>: 224, <strong>256</strong>, 384, 512 位</td></tr><tr><td><strong>SHA-3</strong></td><td>哈希函数</td><td>作为SHA-2的备选标准，用于需要更高安全性的场景</td><td><strong>输出</strong>: 224, 256, 384, 512 位</td></tr><tr><td><strong>SHA-1</strong></td><td>哈希函数</td><td>(历史用途)</td><td><strong>输出</strong>: 160 位</td></tr><tr><td><strong>MD5</strong> (Message Digest 5)</td><td>哈希函数</td><td>(历史用途)，文件校验</td><td><strong>输出</strong>: 128 位</td></tr><tr><td><strong>HMAC</strong> (Hash-based MAC)</td><td>消息认证码</td><td>API认证、JWT签名、验证消息完整性和真实性</td><td><strong>密钥</strong>: 长度可变，推荐不小于哈希输出长度<br><strong>输出</strong>: 与所用哈希函数一致</td></tr><tr><td><strong>Poly1305</strong></td><td>消息认证码</td><td>高性能的消息认证，常与ChaCha20结合 (AEAD)</td><td><strong>密钥</strong>: 256 位</td></tr></tbody></table><p><strong>分组密码（块密码）是对称密码的一个子集</strong></p>]]></content>
     
@@ -61,6 +61,28 @@
 &lt;tbody&gt;&lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;SM1&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;&lt;str</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test1</title>
+    <link href="https://aizer3.github.io/2026/01/06/test2/"/>
+    <id>https://aizer3.github.io/2026/01/06/test2/</id>
+    <published>2026-01-06T07:25:56.000Z</published>
+    <updated>2026-08-26T05:06:01.649Z</updated>
+    
+    <content type="html"><![CDATA[<p>格式示例<br>不要去想怎么做，当下做就行了。<br>带着不完美去行动</p><hr><h2 id="一、标题"><a href="#一、标题" class="headerlink" title="一、标题"></a>一、标题</h2><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h2 id="二、文字样式"><a href="#二、文字样式" class="headerlink" title="二、文字样式"></a>二、文字样式</h2><p><strong>加粗文字</strong><br><em>斜体文字</em><br><em><strong>加粗加斜体</strong></em><br><del>删除线</del><br><code>行内代码</code><br>&#x3D;&#x3D;高亮文字&#x3D;&#x3D;（需要主题支持）<br>H<del>2</del>O 下标，2^10^ 上标（需要主题支持）</p><h2 id="三、引用"><a href="#三、引用" class="headerlink" title="三、引用"></a>三、引用</h2><blockquote><p>这是单层引用。<br>可以写多行。</p><blockquote><p>这是嵌套引用。</p></blockquote></blockquote><h2 id="四、列表"><a href="#四、列表" class="headerlink" title="四、列表"></a>四、列表</h2><h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><ul><li>苹果</li><li>香蕉<ul><li>香蕉是黄色的</li><li>二级缩进</li></ul></li><li>橙子</li></ul><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><ol><li>第一步</li><li>第二步<ol><li>子步骤 A</li><li>子步骤 B</li></ol></li><li>第三步</li></ol><h3 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h3><ul><li><input checked="" disabled="" type="checkbox"> 已完成的事</li><li><input disabled="" type="checkbox"> 待办的事</li><li><input disabled="" type="checkbox"> 写博客</li></ul><h2 id="五、代码"><a href="#五、代码" class="headerlink" title="五、代码"></a>五、代码</h2><p>行内代码：<code>const a = 1</code></p><p>代码块（指定语言）：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">hello</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;Hello, Hexo!&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">hello</span>();</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">hello</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;Hello, Hexo!&#x27;</span>)</span><br><span class="line"></span><br><span class="line">hello()</span><br></pre></td></tr></table></figure><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># YAML 示例</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">test1</span></span><br><span class="line"><span class="attr">tags:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">演示</span></span><br></pre></td></tr></table></figure><h2 id="六、链接与图片"><a href="#六、链接与图片" class="headerlink" title="六、链接与图片"></a>六、链接与图片</h2><p><a href="https://hexo.io/">这是一个链接，跳转到 Hexo 官网</a></p><p><a href="https://github.com/" title="悬停我试试">带提示的链接</a></p><p>图片：</p><p><img src="https://s2.loli.net/2023/10/08/1Sk8whtjouUe2NT.webp" class="lazyload" data-srcset="https://s2.loli.net/2023/10/08/1Sk8whtjouUe2NT.webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="图片说明文字"></p><h2 id="七、表格"><a href="#七、表格" class="headerlink" title="七、表格"></a>七、表格</h2><table><thead><tr><th>姓名</th><th align="right">年龄</th><th align="center">城市</th></tr></thead><tbody><tr><td>张三</td><td align="right">25</td><td align="center">北京</td></tr><tr><td>李四</td><td align="right">30</td><td align="center">上海</td></tr><tr><td>王五</td><td align="right">28</td><td align="center">广州</td></tr></tbody></table><p>（左对齐 :– 、右对齐 –: 、居中 :-:）</p><h2 id="八、分割线"><a href="#八、分割线" class="headerlink" title="八、分割线"></a>八、分割线</h2><p>上面用了 <code>---</code>，这就是分割线效果，常用于分隔大段落。</p><h2 id="九、脚注"><a href="#九、脚注" class="headerlink" title="九、脚注"></a>九、脚注</h2><p>这是一个带脚注的句子<a href="%E8%BF%99%E6%98%AF%E8%84%9A%E6%B3%A8%E7%9A%84%E5%86%85%E5%AE%B9%EF%BC%8C%E4%BC%9A%E6%98%BE%E7%A4%BA%E5%9C%A8%E9%A1%B5%E9%9D%A2%E5%BA%95%E9%83%A8%E3%80%82">^1</a>。</p><h2 id="十、emoji"><a href="#十、emoji" class="headerlink" title="十、emoji"></a>十、emoji</h2><p>:smile: :tada: :rocket: :heart:<br>（依赖主题&#x2F;插件支持，部分直接显示为 :smile: 文本）</p><hr><p><strong>演示结束。</strong> 保存后用 <code>npx hexo server</code> 本地预览看渲染效果，满意就 <code>git push origin source</code> 自动上线。。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;格式示例&lt;br&gt;不要去想怎么做，当下做就行了。&lt;br&gt;带着不完美去行动&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;一、标题&quot;&gt;&lt;a href=&quot;#一、标题&quot; class=&quot;headerlink&quot; title=&quot;一、标题&quot;&gt;&lt;/a&gt;一、标题&lt;/h2&gt;&lt;h1 id=&quot;一级标题&quot;&gt;&lt;a </summary>
       
     
     
